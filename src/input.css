@@ -54,3 +54,45 @@ body {
 .dlss {
     box-shadow: 0px 60px 120px #d2131350;
 }
+
+.transitionLeftToRight {
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: 1000ms;
+}
+
+.applyTransitionLeftToRight {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.transitionRightToLeft {
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 1000ms;
+}
+
+.applyTransitionRightToLeft  {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.transitionTopToBottom {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: 1000ms;
+}
+
+.applyTransitionTopToBottom {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.transitionOpacity{
+    opacity: 0;
+    transition: 2000ms;
+}
+
+.applyTransitionOpacity{
+    opacity: 1;
+}
