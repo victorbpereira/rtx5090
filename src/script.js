@@ -8,7 +8,7 @@ const observer = new IntersectionObserver(items => {
         item.target.classList.toggle('applyTransitionLeftToRight', item.isIntersecting)
     })
 }, {
-    threshold: .5
+    threshold: .4
 })
 
 elements.forEach(item => {
@@ -20,7 +20,7 @@ const observer2 = new IntersectionObserver(items => {
         item.target.classList.toggle('applyTransitionRightToLeft', item.isIntersecting)
     })
 }, {
-    threshold: .5
+    threshold: .4
 })
 
 elements2.forEach(item => {
@@ -32,7 +32,7 @@ const observer3 = new IntersectionObserver(items => {
         item.target.classList.toggle('applyTransitionTopToBottom', item.isIntersecting)
     })
 }, {
-    threshold: .5
+    threshold: .4
 })
 
 elements3.forEach(item => {
@@ -44,7 +44,7 @@ const observer4 = new IntersectionObserver(items => {
         item.target.classList.toggle('applyTransitionOpacity', item.isIntersecting)
     })
 }, {
-    threshold: .5
+    threshold: .4
 })
 
 elements4.forEach(item => {

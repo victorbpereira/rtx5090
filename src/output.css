@@ -2316,7 +2316,7 @@ body {
   box-shadow: 0px 60px 120px #d2131350;
 }
 .transitionLeftToRight {
-  transform: translateX(-200px);
+  transform: translateX(-150px);
   opacity: 0;
   transition: 1000ms;
 }
@@ -2325,7 +2325,7 @@ body {
   opacity: 1;
 }
 .transitionRightToLeft {
-  transform: translateX(200px);
+  transform: translateX(150px);
   opacity: 0;
   transition: 1000ms;
 }
@@ -2334,7 +2334,7 @@ body {
   opacity: 1;
 }
 .transitionTopToBottom {
-  transform: translateY(-100px);
+  transform: translateY(-80px);
   opacity: 0;
   transition: 1000ms;
 }
